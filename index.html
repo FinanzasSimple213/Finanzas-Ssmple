@@ -248,7 +248,7 @@
     </div>
   </div>
 </div>
-<script>var MODELO="openai/gpt-oss-120b";var PROXY_URL="";var GROQ_KEY="";var firebaseConfig={apiKey:"AIzaSyD0mUiOwmqm0bYPbLWkeQDQi6u5azTGyeg",authDomain:"ia-de-finanzas.firebaseapp.com",databaseURL:"https://ia-de-finanzas-default-rtdb.firebaseio.com",projectId:"ia-de-finanzas",storageBucket:"ia-de-finanzas.firebasestorage.app",messagingSenderId:"708179171421",appId:"1:708179171421:web:9e76e63f972a1299b015b4"};var appF=null,authF=null,dbF=null;try{appF=firebase.initializeApp(firebaseConfig);authF=firebase.auth(appF);dbF=firebase.database(appF);}catch(e){}
+<script>var MODELO="openai/gpt-oss-120b";var PROXY_URL="https://fia-proxy.haydergarcia351.workers.dev";var GROQ_KEY="";var firebaseConfig={apiKey:"AIzaSyD0mUiOwmqm0bYPbLWkeQDQi6u5azTGyeg",authDomain:"ia-de-finanzas.firebaseapp.com",databaseURL:"https://ia-de-finanzas-default-rtdb.firebaseio.com",projectId:"ia-de-finanzas",storageBucket:"ia-de-finanzas.firebasestorage.app",messagingSenderId:"708179171421",appId:"1:708179171421:web:9e76e63f972a1299b015b4"};var appF=null,authF=null,dbF=null;try{appF=firebase.initializeApp(firebaseConfig);authF=firebase.auth(appF);dbF=firebase.database(appF);}catch(e){}
 var CLAVE_ADMIN="finadmin2026";var LIMITE_GRATIS=5;var LIMITE_PREMIUM=200;var CUPOS_GRATIS=3;var USUARIO=null,ES_PREMIUM=false,_saldo=0;function guardar(c,v){try{localStorage.setItem(c,v);}catch(e){}}
 function leerL(c,d){try{var v=localStorage.getItem(c);return v==null?d:v;}catch(e){return d;}}
 function llave(){return(leerL("fin_llave_groq","")||"").trim()||GROQ_KEY;}
